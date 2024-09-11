@@ -1,12 +1,18 @@
-# Java Template for CS2
+// This is the basic structure of a Java class
+// Start a Java program by declaring the class
+// Class name MUST MATCH the file name (Main.java)
 
-This repository provides a simple **template** with `Java` starter code. You can create your own copy by clicking `Fork` whenever you need to start a new Java program. For **unit notes** and **helpful resources**, refer to our course website: 📖 [JavaDocs](https://coderina.dev/javadocs/)
+public class Main {
 
-> ⚠️ _DO NOT modify the following files:_ `.devcontainer`, `.vscode`
+   // This is the MAIN METHOD (like a function)
+   public static void main(String []args) {
+      // Statement below tells Java to print to the TERMINAL
+      // Semicolon ; indicates the end of the statement
+      System.out.println("Hello World");
+      
 
-### 💻 Codespaces Instructions
-1. Click the green `<> Code` button in the top right area above the list of files
-2. Select the `Codespaces` tab and click `Open new Codespace on main`
-3. Wait for the Codespace to setup (_it will take some time because VSCode extensions are being installed_)
-4. After the extensions load, you can open `Main.java` from the **File Explorer** menu on the left, and now you're ready to code!
-5. Always make sure to _save your work_ before closing a Codespace: navigate to the **Source Control** menu on the left, and click `commit changes`
+      // print will output on the same line, println outputs on the next line (>O<)
+      System.out.print("apcs");
+      System.out.print(" is fun");
+   }
+}
