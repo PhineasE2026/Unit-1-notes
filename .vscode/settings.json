@@ -1,3 +1,4 @@
 {
-    "java.format.settings.url": ">settings"
+    "editor.inlayHints.enabled": "off",
+    "code-runner.showExecutionMessage": false
 }
