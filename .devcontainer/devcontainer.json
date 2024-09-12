@@ -1,7 +1,9 @@
 {
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"fabiospampinato.vscode-monokai-night"
+		"fabiospampinato.vscode-monokai-night",
+		"esbenp.prettier-vscode",
+		"formulahendry.code-runner"
 	]
 
 }
